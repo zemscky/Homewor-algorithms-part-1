@@ -1,9 +1,7 @@
-import exception.ElementNotFoundException;
+
 import exception.InvalidIndexException;
 import exception.NullItemException;
 import exception.StorageIsFullException;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class StringListImpl implements StringList {
